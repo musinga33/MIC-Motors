@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Form</title>
+</head>
+
+<body>
+    <center>
+        <fieldset style="width: 30%; height: 30%; background-color: lightblue; border-radius: 10px;
+         padding-top: 30px;">
+            <p><b><u>Customer Registration Form</u></b></p>
+            <form action="#" method="post" id="customer_form" style="padding-top: 20px;">
+                <label for="name">Fullname</label>
+                <input type="text" name="name" id="name" placeholder="Enter your fullname" required><br><br>
+                <label for="Password">Password</label>
+                <input type="password" name="Password" id="Password" placeholder="Enter your password" required><br><br>
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" placeholder="Enter your email" required><br><br>
+                <label for="gender">Gender</label>
+                <input type="radio" name="gender" id="male" value="male" required>
+                <label for="male">Male</label>
+                <input type="radio" name="gender" id="female" value="female" required>
+                <label for="female">Female</label><br><br>
+                <label for="course">Courses</label>
+                <select name="course" id="course" required>
+                    <option value="">Select a course</option>
+                    <option value="course1">Course 1</option>
+                    <option value="course2">Course 2</option>
+                    <option value="course3">Course 3</option>
+                </select><br><br>
+            </form>
+        </fieldset>
+    </center>
+</body>
+
+</html>
